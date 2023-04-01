@@ -22,6 +22,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repo
       - uses: actions/checkout@v3
+      # Compiles
+      - name: Compile sketch
       - uses: arduino/compile-sketches@v1
         with:
           fqbn: "arduino:avr:mega"
