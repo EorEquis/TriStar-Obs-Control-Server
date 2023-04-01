@@ -31,7 +31,6 @@ jobs:
             - name: aREST
             - name: Arduino_JSON
             - name: RTClib
-            - name: SPI
             - name: EthernetUdp
           sketch-paths: |
             - Arduino
